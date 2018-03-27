@@ -9,4 +9,8 @@ h1 {
 
 div {
     font-family: 'Roboto Mono', monospace;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
 }
