@@ -1,11 +1,12 @@
 body {
-background: #FFEC5C
+    background: #FFEC5C
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
     color: #F47D4A;
 }
+
 div {
     font-family: 'Roboto Mono', monospace;
 }

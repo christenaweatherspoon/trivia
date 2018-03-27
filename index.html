@@ -4,6 +4,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 
     <meta charset="UTF-8">
@@ -16,44 +17,82 @@
 
 <body>
     <h1>GUCCI MANE: THE TRIVIA</h1>
-    <p>
-    <div>
-    
-            <li>
-                <b>1. Gucci Mane’s government name is what?</b>
-                A. Radric Delantic Davis B. Nayvadius DeMun Wilburn 
-                C. Jeffery Lamar Williams 
-                D. DeAndre Cortez Way 
-                
-                <b>2. Gucci Mane is based out of which city?</b>
-                A. Miami, Florida 
-                B. Youngstown, Ohio 
-                C. Atlanta, Georgia 
-                D. Bessemer, Alabama 
-                
-                <b>3. The number “1017” carries a lot of significance. The number 1017 represents
-                Gucci's label, squad, and family. Where did Gucci Mane get the number from?</b>
-                A. It’s October, 17th. 
-                B. He actually borrowed the number from the address of his grandfather's house. 
-                C. It’s the time his son was born.
-                D. 1017 is the last four digits of is telephone number. 
-                
-                <b>4. Is you rollin?</b>
-                A. Yes. 
-                B. No. 
-                C. Maybe so. 
-                D. Bitch, I might be! 
-                
-                <b>5. What’s infamously tattooed on Gucci’s face?</b>
-                A. A portrait of his grandfather. 
-                B. A Smith & Wesson M&P 380. 
-                C. His wife’s name. 
-                D. An ice cream cone.
-            </li>
+
+    <br>
+    <!-- use margin on divs -->
+    <div class="grid-container">
+        <div id="triviaText">
+
+            <b>What is Gucci Mane's government (real) name?</b>
+            <form id="first-question">
+                <input type="radio" name="answer" value="A"> A. Radric Delantic Davis.
+                <input type="radio" name="answer" value="B"> B. Nayvadius DeMun Wilburn.
+                <input type="radio" name="answer" value="C"> C. Jeffery Lamar Williams.
+                <input type="radio" name="answer" value="D"> D. DeAndre Cortez Way.
+            </form>
+        </div>
+        <br/>
+
+        <br>
+        <div>
+
+            <b>2. Gucci Mane is based out of which city?</b>
+            <form>
+                <input type="radio" name="answer" value="A"> A. Miami, Florida.
+                <input type="radio" name="answer" value="B"> B. Youngstown, Ohio.
+                <input type="radio" name="answer" value="C"> C. Bessemer, Alabama.
+                <input type="radio" name="answer" value="D"> D. Atlanta, Georgia.
+            </form>
+
+        </div>
+        </br>
+
+        <br>
+        <div>
+
+            <b>3. The number “1017” carries a lot of significance. The number 1017 represents Gucci's label, squad, and family.
+                Where did Gucci Mane get the number from?</b>
+
+            <form>
+                <input type="radio" name="answer" value="A"> A. It’s October, 17th.
+                <input type="radio" name="answer" value="B"> B. He actually borrowed the number from the address of his grandfather's house.
+                <input type="radio" name="answer" value="C"> C. It’s the time his son was born.
+                <input type="radio" name="answer" value="D"> D. 1017 is the last four digits of is social security number.
+            </form>
+
+        </div>
+
+        </br>
+
+
+        <br>
+        <div>
+
+            <b>4. Is you rollin?</b>
+            <form>
+                <input type="radio" name="answer" value="A"> A. Yes.
+                <input type="radio" name="answer" value="B"> B. No.
+                <input type="radio" name="answer" value="C"> C. Maybe so.
+                <input type="radio" name="answer" value="D"> D. Bitch, I might be!
+            </form>
+        </div>
+        </br>
+
+        <br>
+        <div>
+
+            <b>5. What’s famously tattooed on Gucci’s face?</b>
+
+            <form>
+                <input type="radio" name="answer" value="A"> A. A portrait of his grandfather.
+                <input type="radio" name="answer" value="B"> B. A Smith & Wesson M&P 380.
+                <input type="radio" name="answer" value="C"> C. His wife's name.
+                <input type="radio" name="answer" value="D"> D. An ice cream cone.
+            </form>
+        </div>
+        <br>
     </div>
-</p>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
 </body>
+<script type="text/javascript" src="script.js"></script>
 
 </html>
