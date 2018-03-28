@@ -10,6 +10,10 @@ h1 {
 
 div {
     font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     padding-top: auto;
     padding-bottom: auto;
     padding-left: auto;
