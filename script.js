@@ -70,7 +70,7 @@ let answersToQuiz = [
     'An ice cream cone.'
   ]
 ];
-console.log(answersToQuiz, 0);
+console.log(answersToQuiz, );
 document
   .querySelector('#first-question')
   .addEventListener('change', function(event) {
