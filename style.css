@@ -10,12 +10,35 @@ h1 {
 
 div {
     font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    padding-top: auto;
-    padding-bottom: auto;
-    padding-left: auto;
-    padding-right: auto;
 }
+.wrapper {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(5px, auto);
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two { 
+    grid-column: 2 ;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 3;
+    grid-row: 1;
+  }
