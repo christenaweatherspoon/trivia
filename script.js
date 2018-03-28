@@ -22,6 +22,7 @@ document
 
   let triviaQuiestions =  
 
+// maybe create a variable that says the question and then a seperate one with the answer
     triviaQuestionOne = [
       ['Radric Delantic Davis', 'Nayvadius DeMun Wilburn', 'Jeffery Lamar Williams', 'DeAndre Cortez Way'],
       
