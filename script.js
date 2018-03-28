@@ -11,25 +11,21 @@
 //
 // Let player see the number of answers they got correct
 // Store correct answer in an array or in html
-let triviaQuiestions =  {
 // maybe create a variable that says the question and then a seperate one with the answer
-    triviaQuestionOne = [
-      ['Radric Delantic Davis.', 'Nayvadius DeMun Wilburn.', 'Jeffery Lamar Williams.', 'DeAndre Cortez Way.'],
-      
-      triviaQuestionTwo = 
-      ['Miami, Florida.', 'Youngstown, Ohio.', 'Bessemer, Alabama.', 'Atlanta, Georgia.'],
-      
-      triviaQuestionThree = 
-      ['It’s October, 17th.', 'He actually borrowed the number from the address of his grandfathers house.', 'It’s the time his son was born.', '1017 is the last four digits of is social security number.'],
   
-      triviaQuestionFour = 
-      ['Yes.', 'No.', 'Maybe so.', 'Bitch, I might be.'],
+
+let answersToQuestionOne = ['Radric Delantic Davis.', 'Nayvadius DeMun Wilburn.', 'Jeffery Lamar Williams.', 'DeAndre Cortez Way.']
       
-      triviaQuestionFive = 
-      ['A portrait of his grandfather.', 'A Smith & Wesson M&P 380.', 'His wifes name.', 'An ice cream cone.']
+let answersToQuestionTwo = ['Miami, Florida.', 'Youngstown, Ohio.', 'Bessemer, Alabama.', 'Atlanta, Georgia.']
+      
+let answersToQuestionThree = ['It’s October, 17th.', 'He actually borrowed the number from the address of his grandfathers house.', 'It’s the time his son was born.', '1017 is the last four digits of is social security number.']
+  
+let answersToQuestionFour = ['Yes.', 'No.', 'Maybe so.', 'Bitch, I might be.']
+     
+let answersToQuestionFive = ['A portrait of his grandfather.', 'A Smith & Wesson M&P 380.', 'His wifes name.', 'An ice cream cone.']
 
 
-let answersToQuiz = ["Radric Delantic Davis.", "Atlanta, Georgia.", "He actually borrowed the number from the address of his grandfathers house.", "Bitch, I might be.", "An ice cream cone."]
+let answersToQuiz = ['Radric Delantic Davis.', 'Atlanta, Georgia.', 'He actually borrowed the number from the address of his grandfathers house.', 'Bitch, I might be.', 'An ice cream cone.']
 
 for (let i = 0; i < triviaQuiestions.length; i++) {
   console.log(answersToQuiz[i])
