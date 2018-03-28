@@ -11,17 +11,7 @@
 //
 // Let player see the number of answers they got correct
 // Store correct answer in an array or in html
-let answersToQuiz = [0, 1, 2, 3, 4]
-console.log(answersToQuiz, 0)
-document
-  .querySelector('#first-question')
-  .addEventListener('change', function (event) {
-    console.log(event.target.value)
-  })
-
-
-  let triviaQuiestions =  
-
+let triviaQuiestions =  {
 // maybe create a variable that says the question and then a seperate one with the answer
     triviaQuestionOne = [
       ['Radric Delantic Davis.', 'Nayvadius DeMun Wilburn.', 'Jeffery Lamar Williams.', 'DeAndre Cortez Way.'],
@@ -36,5 +26,11 @@ document
       ['Yes.', 'No.', 'Maybe so.', 'Bitch, I might be.'],
       
       triviaQuestionFive = 
-      
       ['A portrait of his grandfather.', 'A Smith & Wesson M&P 380.', 'His wifes name.', 'An ice cream cone.']
+
+
+let answersToQuiz = ["Radric Delantic Davis.", "Atlanta, Georgia.", "He actually borrowed the number from the address of his grandfathers house.", "Bitch, I might be.", "An ice cream cone."]
+
+for (let i = 0; i < triviaQuiestions.length; i++) {
+  console.log(answersToQuiz[i])
+}
