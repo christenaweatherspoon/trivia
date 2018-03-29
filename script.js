@@ -103,3 +103,13 @@ document
   .addEventListener('change', function (event) {
     console.log(event.target.value)
   })
+
+
+var submitButton = document.getElementById("submitButton").submit(); {
+    console.log(submitButton)
+document
+  .querySelector('#button .submit')
+  .addEventListener('change', function (event) {
+    console.log(event.target.value)
+  })
+}
