@@ -13,103 +13,45 @@
 // Store correct answer in an array or in html
 
 // maybe create a variable that says the question and then a seperate one with the answer
-let answersToQuestionOne = [
-  'Radric Delantic Davis.',
-  'Nayvadius DeMun Wilburn.',
-  'Jeffery Lamar Williams.',
-  'DeAndre Cortez Way.'
-]
+let score = 0;
 
-let answersToQuestionTwo = [
-  'Miami, Florida.',
-  'Youngstown, Ohio.',
-  'Bessemer, Alabama.',
- 'Atlanta, Georgia.'
-]
+function scoreTally (event) {
+  if (event.target.value === '3') {
+    score = score + 1
+    console.log(score)
+  }
+}
 
-let answersToQuestionThree = [
-  'It’s October, 17th.',
-  'He actually borrowed the number from the address of his grandfathers house.',
-  'It’s the time his son was born.',
-  '1017 is the last four digits of is social security number.'
-]
-
-let answersToQuestionFour = ['Yes.', 'No.', 'Maybe so.', 'Bitch, I might be.']
-
-let answersToQuestionFive = [
-  'A portrait of his grandfather.',
-  'A Smith & Wesson M&P 380.',
-  'His wifes name.',
-  'An ice cream cone.'
-]
-
-let answersToQuiz = [
-  [
-    'Radric Delantic Davis.',
-    'Nayvadius DeMun Wilburn.',
-    'Jeffery Lamar Williams.',
-    'DeAndre Cortez Way.'
-  ],
-  [
-    'Miami, Florida.',
-    'Youngstown, Ohio.',
-    'Bessemer, Alabama.',
-    'Atlanta, Georgia.'
-  ],
-  [
-    'It’s October, 17th.',
-    'He actually borrowed the number from the address of his grandfathers house.',
-    'It’s the time his son was born.',
-    '1017 is the last four digits of is social security number.'
-  ],
-  ['Yes.', 'No.', 'Maybe so.', 'Bitch, I might be.'],
-  [
-    'A portrait of his grandfather.',
-    'A Smith & Wesson M&P 380.',
-    'His wifes name.',
-    'An ice cream cone.'
-  ]
-]
-console.log(answersToQuiz, [3])
 document
   .querySelector('#first-question')
-  .addEventListener('change', function (event) {
-    console.log(event.target.value)
-  })
+  .addEventListener('change', scoreTally)
 
-console.log(answersToQuiz, [3]);
 document
   .querySelector('#second-question')
-  .addEventListener('change', function (event) {
-    console.log(event.target.value)
-  })
-console.log(answersToQuiz, [3])
-document
-  .querySelector('#third-question')
-  .addEventListener('change', function (event) {
-    console.log(event.target.value)
-  })
+  .addEventListener('change', scoreTally) 
 
-console.log(answersToQuiz, [3])
+  document
+  .querySelector('#third-question')
+  .addEventListener('change', scoreTally) 
+
 document
   .querySelector('#fourth-question')
-  .addEventListener('change', function (event) {
-    console.log(event.target.value)
-  })
-
-console.log(answersToQuiz, [3])
+  .addEventListener('change', scoreTally)
 document
   .querySelector('#fifth-question')
-  .addEventListener('change', function (event) {
-    console.log(event.target.value)
-  })
+  .addEventListener('change', scoreTally)
 
 
-var submitButton = document.getElementById("submitButton").submit(); {
-    console.log(submitButton)
-document
-  .querySelector('#button .submit')
-  .addEventListener('change', function (event) {
-    console.log(event.target.value)
-  })
-}
+
+// use code below four times to pull answer from array
+
+// append item out of dom to show correct answers
+// check how manyanswers play got correct when they click submit
+var submitButton = document.getElementById('submit-button').addEventListener('click', function (event) {
+  console.log(event.target.value)
+})
+
+
+
+// display the score
+// change answer order - add value onto DOM to be same for all correct answers
