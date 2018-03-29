@@ -19,6 +19,7 @@ function scoreTally (event) {
   if (event.target.value === '3') {
     score = score + 1
     console.log(score)
+    document.getElementById("score").innerHTML = score.toString();
   }
 }
 
@@ -42,16 +43,12 @@ document
   .addEventListener('change', scoreTally)
 
 
-
 // use code below four times to pull answer from array
 
 // append item out of dom to show correct answers
 // check how manyanswers play got correct when they click submit
-var submitButton = document.getElementById('submit-button').addEventListener('click', function (event) {
-  console.log(event.target.value)
-})
-
-
-
+// var submitButton = document.getElementById('submit-button').addEventListener('click', function (event) {
+//  console.log(event.target.value)
+// })
 // display the score
 // change answer order - add value onto DOM to be same for all correct answers
