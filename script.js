@@ -19,7 +19,7 @@ function scoreTally (event) {
   if (event.target.value === '3') {
     score = score + 1
     console.log(score)
-    document.getElementById("score").innerHTML = score.toString();
+    document.getElementById('score').innerHTML = score.toString()
   }
 }
 
@@ -31,7 +31,7 @@ document
   .querySelector('#second-question')
   .addEventListener('change', scoreTally) 
 
-  document
+document
   .querySelector('#third-question')
   .addEventListener('change', scoreTally) 
 
@@ -41,8 +41,6 @@ document
 document
   .querySelector('#fifth-question')
   .addEventListener('change', scoreTally)
-
-
 // use code below four times to pull answer from array
 
 // append item out of dom to show correct answers
