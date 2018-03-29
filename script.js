@@ -18,30 +18,30 @@ let answersToQuestionOne = [
   'Nayvadius DeMun Wilburn.',
   'Jeffery Lamar Williams.',
   'DeAndre Cortez Way.'
-];
+]
 
 let answersToQuestionTwo = [
   'Miami, Florida.',
   'Youngstown, Ohio.',
   'Bessemer, Alabama.',
-  'Atlanta, Georgia.'
-];
+ 'Atlanta, Georgia.'
+]
 
 let answersToQuestionThree = [
   'It’s October, 17th.',
   'He actually borrowed the number from the address of his grandfathers house.',
   'It’s the time his son was born.',
   '1017 is the last four digits of is social security number.'
-];
+]
 
-let answersToQuestionFour = ['Yes.', 'No.', 'Maybe so.', 'Bitch, I might be.'];
+let answersToQuestionFour = ['Yes.', 'No.', 'Maybe so.', 'Bitch, I might be.']
 
 let answersToQuestionFive = [
   'A portrait of his grandfather.',
   'A Smith & Wesson M&P 380.',
   'His wifes name.',
   'An ice cream cone.'
-];
+]
 
 let answersToQuiz = [
   [
@@ -69,10 +69,37 @@ let answersToQuiz = [
     'His wifes name.',
     'An ice cream cone.'
   ]
-];
-console.log(answersToQuiz, );
+]
+console.log(answersToQuiz, [3])
 document
   .querySelector('#first-question')
-  .addEventListener('change', function(event) {
-    console.log(event.target.value);
-  });
+  .addEventListener('change', function (event) {
+    console.log(event.target.value)
+  })
+
+console.log(answersToQuiz, [3]);
+document
+  .querySelector('#second-question')
+  .addEventListener('change', function (event) {
+    console.log(event.target.value)
+  })
+console.log(answersToQuiz, [3])
+document
+  .querySelector('#third-question')
+  .addEventListener('change', function (event) {
+    console.log(event.target.value)
+  })
+
+console.log(answersToQuiz, [3])
+document
+  .querySelector('#fourth-question')
+  .addEventListener('change', function (event) {
+    console.log(event.target.value)
+  })
+
+console.log(answersToQuiz, [3])
+document
+  .querySelector('#fifth-question')
+  .addEventListener('change', function (event) {
+    console.log(event.target.value)
+  })
