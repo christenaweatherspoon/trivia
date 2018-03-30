@@ -25,15 +25,12 @@ function scoreTally (event) {
 document
   .querySelector('#first-question')
   .addEventListener('change', scoreTally)
-
 document
   .querySelector('#second-question')
-  .addEventListener('change', scoreTally) 
-
+  .addEventListener('change', scoreTally)
 document
   .querySelector('#third-question')
-  .addEventListener('change', scoreTally) 
-
+  .addEventListener('change', scoreTally)
 document
   .querySelector('#fourth-question')
   .addEventListener('change', scoreTally)
@@ -48,4 +45,3 @@ document
 document
   .querySelector('#score-card')
   .addEventListener('change', scoreTally)
-// change answer order - add value onto DOM to be same for all correct answers

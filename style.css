@@ -1,5 +1,6 @@
 body {
     background: #FFEC5C
+
 }
 
 h1 {
@@ -17,6 +18,7 @@ h2 {
 
 div {
     font-family: 'Roboto Mono', monospace;
+    text-justify: auto;
     font-size: 14px;
     margin-top: 20px;
     margin-left: 20px;
@@ -26,32 +28,12 @@ div {
 .wrapper {
     display: grid;
     grid-column-end: auto;
-    grid-gap: 5px;
+    grid-gap: 2px;
     -ms-grid-row-align: center;
     outline-color: #008DCB;
     outline-style: solid;
     outline-width: 2px;
-  }
-  .one {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .two { 
-    grid-column: 2 ;
-    grid-row: 1;
-  }
-  .three {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  .four {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  .five {
-    grid-column: 3;
-    grid-row: 1;
-  }
+}
 
 
 footer {
