@@ -25,9 +25,12 @@ div {
 }
 .wrapper {
     display: grid;
-    grid-column-end: span;
+    grid-column-end: auto;
     grid-gap: 5px;
     -ms-grid-row-align: center;
+    outline-color: #008DCB;
+    outline-style: solid;
+    outline-width: 2px;
   }
   .one {
     grid-column: 1;
@@ -63,4 +66,3 @@ footer {
     border: 3px solid rgb(244, 253, 112);
     padding: 10px;
 }
-
