@@ -5,7 +5,7 @@ Gucci Mane is a critically acclaimed artist hailing from Atlanta, Georgia. He ha
     [https://noisey.vice.com/en_uk/article/64yv89/gucci-mane-is-the-most-influential-rapper-of-the-last-decade-noisey-atlanta] 
 
 
-This trivia game/quiz was made to honor the musician by using interesting facts and tidbits. Have fun!
+This trivia game/quiz was made to honor the musician by using interesting facts and tidbits about his life, music and career. Have fun!
 
 # *Explanations of the technologies used*
 HTML, CSS and JavaScript are the primary languages used for this trivia game. This game can be manipulated within the DOM using developer tools on most browser applications.
