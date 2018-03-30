@@ -1,19 +1,18 @@
 // Player opens page to the first question
-// Let player see question
-// Let player choose between a series of answers using for loops
 
-// for loop will loop through the questions once
-//   store the 5 correct answers in an array
+// Let player see question
+
+// Let player choose between a series of answers using for loops
 
 // link the corresponding form event listener function to the correct answer
 
-// Loop through previous step four more times
-//
 // Let player see the number of answers they got correct
-// Store correct answer in an array or in html
 
-// maybe create a variable that says the question and then a seperate one with the answer
-let score = 0;
+// Store correct answer in html
+
+// Score will start at 0. Score variable declared to initiate this game
+
+let score = 0
 
 function scoreTally (event) {
   if (event.target.value === '3') {
@@ -22,7 +21,7 @@ function scoreTally (event) {
     document.getElementById('score').innerHTML = score.toString()
   }
 }
-
+// Query selector used to adjust score tally by "grabbing" 3rd value in html
 document
   .querySelector('#first-question')
   .addEventListener('change', scoreTally)
@@ -41,12 +40,12 @@ document
 document
   .querySelector('#fifth-question')
   .addEventListener('change', scoreTally)
-// use code below four times to pull answer from array
 
 // append item out of dom to show correct answers
-// check how manyanswers play got correct when they click submit
-// var submitButton = document.getElementById('submit-button').addEventListener('click', function (event) {
-//  console.log(event.target.value)
-// })
+
 // display the score
+
+document
+  .querySelector('#score-card')
+  .addEventListener('change', scoreTally)
 // change answer order - add value onto DOM to be same for all correct answers
