@@ -22,6 +22,11 @@ function scoreTally (event) {
   }
 }
 // Query selector used to adjust score tally by "grabbing" 3rd value in html
+// You could also add a class "questions" to each HTML element containing a question
+// rather than by id, and use it in the following way:
+// Use querySelectorAll to grab DOM element with the class "questions"
+  // for example: querySelectorAll('.questions
+// use forEach to add an event to each item with the class "questions"
 document
   .querySelector('#first-question')
   .addEventListener('change', scoreTally)
@@ -42,6 +47,7 @@ document
 
 // display the score
 
+// you can remove this, it's actually not doing anything: there's nothing with id score-card on the dom. There is an item with id score, but it doesn't need this event-listener which is listening for change events in a form
 document
   .querySelector('#score-card')
   .addEventListener('change', scoreTally)
